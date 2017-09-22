@@ -46,11 +46,11 @@ public class MainActivity extends Activity {
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(newBase);
-        try {
-            // 在这里进行Hook
-            HookHelper.attachContext();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            // 在这里进行Hook
+//            HookHelper.attachContext();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 }
